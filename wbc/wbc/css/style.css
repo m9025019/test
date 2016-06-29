@@ -1,0 +1,190 @@
+/* ----------------------
+RESET 重置
+---------------------- */
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button,textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+img {border: 0;}
+:focus {outline: 0;}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 100%;
+}
+input, button, textarea,select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+code, kbd, samp, tt {font-size: 100%;}
+
+/*purpose To enable resizing for IE */
+/*branch For IE6-Win, IE7-Win */
+input, button, textarea, select {*font-size: 100%;}
+body {line-height: 160%;}
+ol, ul, li {list-style: none;}
+:link, :visited , ins {text-decoration: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+
+/*HTML5 tag*/
+section, article, aside, footer, header, nav, main {
+  display:block;
+}
+
+/* ----------------------
+BASE
+---------------------- */
+
+body {
+	background: #f4f5f7;
+	font-size: 15px;
+	font-family: arial, sans-serif;
+}
+
+a {
+	color: #888;
+}
+
+h2 {
+/*font-size: 26px;*/
+	font-size: 1.7333em;
+
+}
+
+h3 {
+/*font-size: 20px;*/
+	font-size: 1.333em;
+}
+
+.container-1440 {
+	width: 1380px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* ----------------------
+Header
+---------------------- */
+
+.header-top {
+	background: #c94c46;
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	color: black;
+	background: url("../img/logo.png") no-repeat 0 0;
+	display: inline-block;
+	width: 184px;
+	height: 60px;
+	font-size: 0;
+	text-indent: 100%;
+	overflow: hidden;
+}
+
+nav {
+	float: right;
+	padding: 20px 0;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: .5em;
+}
+
+#banner {
+	background: url("../img/banner.png") no-repeat 50% 50%;
+	height: 800px;
+	background-size: cover;
+}
+
+.banner-content {
+	color: #fff;
+	font-size: 4.2em;
+	line-height: 150%;
+	text-align: center;
+	height: 800px;
+}
+
+.banner-content::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 100%;
+}
+
+.banner-content p {
+	display: inline-block;
+	vertical-align: middle;
+	text-shadow: 1px 1px 0 rgba(11, 59, 0, .75);
+}
+
+/* ----------------------
+Section
+---------------------- */
+
+.bg-grey {
+	background: #e9e9e9;
+}
+
+section h2 {
+	text-align: center;
+	padding: 72px 0 50px 0;
+	color: #676769;
+}
+
+section {
+	overflow: hidden;
+}
+
+section .fa {
+	margin-right: 5px;
+}
+
+/*
+feature
+======== */
+
+.feature {
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin: 0 7.5px;
+}
+
+.feature h3 {
+	color: #333;
+	margin: 15px 0;
+}
+
+.feature .des {
+	color: #a5a5a5;
+}
+
+
+
+
+
+
+
+
+
+
+
